@@ -1,0 +1,54 @@
+{
+  "questions":[
+    {
+      "question":"En voiture, lors d’un choc à 50km/h, un enfant de 20kg, non attaché, peut se transformer en projectile d’une demi-tonne ?",
+      "reponse":true,
+      "anecdote" : "Jusqu’à ce qu’ils aient 10 ans, en voiture, les enfants doivent être installés dans un siège homologué UE, adapté à leur âge, leur morphologie, leur poids, et à l’arrière du véhicule. De 0 à 10 kg, le siège de l’enfant doit être placé le dos à la route. Attention : si vous l’installez sur le siège passager dos à la route, désactivez l’airbag."
+    },
+    {
+      "question":"Les personnes agés sont les premières victimes de l’alcool au volant ?",
+      "reponse":false,
+      "anecdote" : "Les jeunes de 18-24 ans constituent la classe d’âge la plus gravement touchée : ils représentent 40% des personnes tuées dans un accident impliquant l’alcool. En moyenne, chaque jour, un jeune est tué dans un accident avec un taux d’alcool positif."
+    },
+    {
+      "question":"Le risque d’accident est plus élevé à proximité de chez soi.",
+      "reponse":true,
+      "anecdote" : "75% des victimes de la route sont des victimes locales, piétons ou occupants d’un véhicule immatriculé dans le département. On constate aussi chaque jour un pic de mortalité routière vers 18h à l’heure des trajets domicile/travail. C’est donc sur les routes que l’on emprunte quotidiennement que le risque routier est le plus élevé, l’habitude entraînant une baisse de vigilance."
+    },
+    {
+      "question":"Les enfants sont plus vulnérables face aux dangers de la rue ?",
+      "reponse":true,
+      "anecdote" : "Un piéton tué sur 10 est un enfant. Face à la circulation, un enfant ne réagit pas comme un adulte. Là où l’adulte met ½ seconde à distinguer un véhicule à l’arrêt d’un véhicule en mouvement, un enfant, lui, met 3 à 4 secondes."
+    },
+    {
+      "question":"À moto, la majorité des accidents mortels a lieu en ville ?",
+      "reponse":false,
+      "anecdote" : "À moto, 2 accidents mortels sur 3 ont lieu en rase campagne, dans 7 cas sur 10 en plein jour, dans 8 cas sur 10 par beau temps. En ville, le motard porte une attention toute particulière à sa conduite, prêt à réagir à tous les dangers qui peuvent surgir à chaque instant. A la campagne, une fois dégagé du trafic, de jour, sur une belle route sèche, le motard a souvent tendance à relâcher sa vigilance."
+    },
+    {
+      "question":"25% des accidentés de la route ont été exposés à un médicament potentiellement dangereux pour la conduite.",
+      "reponse":false,
+      "anecdote" : "10% des accidentés de la route ont été exposés à un médicament potentiellement dangereux pour la conduite. Certains médicaments sont incompatibles avec la conduite d’un véhicule. Soyez attentif aux pictogrammes sur les boîtes de médicaments qui indiquent leurs effets négatifs : risque d’endormissement, diminution des réflexes, ralentissement de la motricité et des mouvements…"
+    },
+    {
+      "question":"Chaque année, il y a environ 70 000 collisions entre véhicules et animaux sauvages.",
+      "reponse":true,
+      "anecdote" : "Ces collisions provoquent des dégâts matériels importants, mais aussi des dommages corporels graves et parfois mortels. Treize personnes ont été tuées en 2010 dans ces conditions. Redoublez de prudence quand vous apercevez le panneau « Danger : animaux sauvages ». Surveillez les abords de la route et ralentissez."
+    },
+    {
+      "question":"Conduire vite fatigue ?",
+      "reponse":true,
+      "anecdote" : "Ce ne sont pas les vitesses régulières et modérées qui provoquent l’endormissement 'par ennui' comme on le dit souvent, mais la conduite rapide.    Une vitesse plus élevée oblige en effet le conducteur à traiter un grand nombre d’informations en un minimum de temps et à adapter en permanence sa vision. Conséquence : un stress important qui entraîne une plus grande fatigue et naturellement une perte de vigilance."
+    },
+    {
+      "question":"61 % des conducteurs de moins de 35 ans lisent leur sms en conduisant ?",
+      "reponse":true,
+      "anecdote" : "Envoyer un sms en conduisant multiplie par 23 le risque d’accident"
+    },
+    {
+      "question":"1 motard sur 2 tués à moins de 2 ans de permis",
+      "reponse":false,
+      "anecdote" : "1 motard sur 4 tués à moins de 2 ans de permis"
+    }
+  ]
+}

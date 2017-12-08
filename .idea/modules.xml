@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Nuit_de_linfo_2017.iml" filepath="$PROJECT_DIR$/Nuit_de_linfo_2017.iml" />
       <module fileurl="file://C:\Users\user\StudioProjects\Watchmen\Nuit_de_linfo_2017.iml" filepath="C:\Users\user\StudioProjects\Watchmen\Nuit_de_linfo_2017.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Watchmen.iml" filepath="$PROJECT_DIR$/Watchmen.iml" />
+      <module fileurl="file://C:\Users\user\IdeaProjects\Nuit_de_linfo_2017\Watchmen.iml" filepath="C:\Users\user\IdeaProjects\Nuit_de_linfo_2017\Watchmen.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
