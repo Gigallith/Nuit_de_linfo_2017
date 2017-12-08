@@ -5,13 +5,165 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp" >
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="115dp"
-        android:layout_marginTop="82dp"
-        android:text="SOS" />
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:id="@+id/warn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_warning_black_24dp" />
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:id="@+id/protectLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="14sp" />
+
+                <CheckBox
+                    android:layout_gravity="center"
+                    android:id="@+id/checkProtect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="30dp">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/phone" />
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:id="@+id/appelerLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="14sp" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/call"
+                    android:src="@drawable/phonecall"
+                    android:background="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="30dp">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:id="@+id/takeCare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/soins" />
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:id="@+id/takeCareLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="14sp" />
+
+                <CheckBox
+                    android:layout_gravity="center"
+                    android:id="@+id/checkTakeCare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="30dp">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:id="@+id/smokeImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/smoke" />
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:id="@+id/smokeLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="14sp" />
+                <CheckBox
+                    android:layout_gravity="center"
+                    android:id="@+id/checkSmoke"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="30dp">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:id="@+id/walk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/walk" />
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:id="@+id/walkLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="14sp" />
+
+                <CheckBox
+                    android:layout_gravity="center"
+                    android:id="@+id/checkWalk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
 </RelativeLayout>
