@@ -138,7 +138,7 @@ public class BonusFragment extends Fragment {
         konamiCode.addInput(KonamiCode.KSInput.UP);
         if (konamiCode.reversedIsComplete()){
             Globals g = Globals.getInstance();
-            g.incremente();
+            g.setData(2);
         }
     }
 

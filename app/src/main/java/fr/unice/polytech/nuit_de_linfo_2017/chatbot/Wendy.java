@@ -40,7 +40,7 @@ public class Wendy
             {
                 if(dialog == dialogEgg){
                     Globals g = Globals.getInstance();
-                    g.incremente();
+                    g.setData(1);
                 }
                 return responce.get();
             }
