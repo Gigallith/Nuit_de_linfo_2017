@@ -81,11 +81,18 @@ public class MainActivity extends AppCompatActivity
         android.app.FragmentManager fragmentManager = getFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
-        if (id == R.id.nav_share) {
+        if (id == R.id.nav_share)
+        {
             getSupportFragmentManager()
                     .beginTransaction()
                     .replace(R.id.flContent, new ChatBot())
                     .commit();
+        } else if (id == R.id.nav_view) {
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.flContent, new ViewPagerHomeFragment())
+                    .commit();
+
         } else if (id == R.id.nav_bonus) {
             getSupportFragmentManager()
                     .beginTransaction()
