@@ -12,6 +12,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import fr.unice.polytech.nuit_de_linfo_2017.bonus.BonusFragment;
 import fr.unice.polytech.nuit_de_linfo_2017.home.ViewPagerHomeFragment;
 
 public class MainActivity extends AppCompatActivity
@@ -85,8 +86,11 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_share) {
 
-        } else if (id == R.id.nav_send) {
-
+        } else if (id == R.id.nav_bonus) {
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.flContent, new BonusFragment())
+                    .commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
