@@ -25,10 +25,12 @@ public class EasterEggsFragment extends Fragment implements FragmentInterface {
     private List eastereggs = new ArrayList<EasterEgg>();
 
     public EasterEggsFragment() {
-        EasterEgg easterEgg0 = new EasterEgg("Le bot fait tout","Bravo vous avez trouvez le 1er indice", 0);
-        EasterEgg easterEgg1 = new EasterEgg("IMANOK", "Bravo vous avez trouvez le 2eme indice",1);
+        EasterEgg easterEgg0 = new EasterEgg("Indice 1 : Le bot fait tout","Bravo vous avez trouvez le 1er indice", 0);
+        EasterEgg easterEgg1 = new EasterEgg("Indice 2 : IMANOK", "Bravo vous avez trouvez le 2eme indice",1);
+        EasterEgg easterEgg2 = new EasterEgg("BRAVO VOUS AVEZ RESOLU TOUS LES EASTERS EGGS !", "", 2);
         eastereggs.add(easterEgg0);
         eastereggs.add(easterEgg1);
+        eastereggs.add(easterEgg2);
     }
 
     @Override
