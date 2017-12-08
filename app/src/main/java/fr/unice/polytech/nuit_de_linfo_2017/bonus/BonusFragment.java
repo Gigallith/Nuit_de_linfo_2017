@@ -2,6 +2,7 @@ package fr.unice.polytech.nuit_de_linfo_2017.bonus;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -49,6 +50,8 @@ public class BonusFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.bonus_layout, container, false);
+        rootView.setBackgroundColor(ContextCompat.getColor(getContext(),R.color.colorFond));
+
         bonusView = rootView.findViewById(R.id.bonus_view);
 
         answer = (TextView) rootView.findViewById(R.id.answerTextView) ;

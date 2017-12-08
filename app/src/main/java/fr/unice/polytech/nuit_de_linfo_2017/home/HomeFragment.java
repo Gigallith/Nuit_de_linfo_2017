@@ -18,7 +18,7 @@ public class HomeFragment extends Fragment implements FragmentInterface {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.home_layout,container,false);
-        rootView.setBackgroundColor(ContextCompat.getColor(getContext(),R.color.colorFond));
+        rootView.setBackgroundColor(ContextCompat.getColor(getContext(),R.color.white));
         return rootView;
     }
 
