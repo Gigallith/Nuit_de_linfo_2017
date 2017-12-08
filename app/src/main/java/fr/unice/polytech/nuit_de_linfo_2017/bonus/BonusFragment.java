@@ -11,6 +11,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import fr.unice.polytech.nuit_de_linfo_2017.R;
+import fr.unice.polytech.nuit_de_linfo_2017.easterEggs.Globals;
 
 /**
  * Created by user on 07/12/2017.
@@ -132,6 +133,10 @@ public class BonusFragment extends Fragment {
     public void upAction(View v) {
         System.out.println("up");
         konamiCode.addInput(KonamiCode.KSInput.UP);
+        if (konamiCode.reversedIsComplete()){
+            Globals g = Globals.getInstance();
+            g.incremente();
+        }
     }
 
 }

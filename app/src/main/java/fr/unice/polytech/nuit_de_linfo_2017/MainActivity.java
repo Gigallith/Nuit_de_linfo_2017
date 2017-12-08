@@ -1,5 +1,6 @@
 package fr.unice.polytech.nuit_de_linfo_2017;
 
+import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -12,6 +13,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import fr.unice.polytech.nuit_de_linfo_2017.easterEggs.EasterEggsFragment;
 import fr.unice.polytech.nuit_de_linfo_2017.bonus.BonusFragment;
 import fr.unice.polytech.nuit_de_linfo_2017.home.ViewPagerHomeFragment;
 
@@ -75,6 +77,8 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        android.app.FragmentManager fragmentManager = getFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
@@ -92,6 +96,13 @@ public class MainActivity extends AppCompatActivity
                     .replace(R.id.flContent, new BonusFragment())
                     .commit();
         }
+        else if (id == R.id.nav_easter_eggs){
+
+            fragmentTransaction.replace(R.id.flContent, EasterEggsFragment.newInstance());
+            fragmentTransaction.addToBackStack(null);
+            fragmentTransaction.commit();
+        }
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

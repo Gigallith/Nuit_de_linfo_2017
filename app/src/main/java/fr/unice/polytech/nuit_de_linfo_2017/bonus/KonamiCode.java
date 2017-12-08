@@ -14,6 +14,7 @@ import java.util.Queue;
 public class KonamiCode {
 
     private static final List<KSInput> code = new ArrayList<>(Arrays.asList(KSInput.UP,KSInput.UP,KSInput.DOWN,KSInput.DOWN,KSInput.LEFT,KSInput.RIGHT,KSInput.LEFT,KSInput.RIGHT,KSInput.B,KSInput.A)) ;
+    private static final List<KSInput> reversedCode = new ArrayList<>(Arrays.asList(KSInput.A,KSInput.B,KSInput.RIGHT,KSInput.LEFT,KSInput.RIGHT,KSInput.LEFT,KSInput.DOWN,KSInput.DOWN,KSInput.UP,KSInput.UP));
     public enum KSInput {
         UP,
         DOWN,
@@ -43,6 +44,11 @@ public class KonamiCode {
         List<KSInput> list2 = new ArrayList<>(code);
         boolean b = list.equals(list2);
         return (list.equals(code));
+    }
+
+    public Boolean reversedIsComplete(){
+        List<KSInput> list = new ArrayList<>(deque);
+        return (list.equals(reversedCode));
     }
 
 }

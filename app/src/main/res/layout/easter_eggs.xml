@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fr.unice.polytech.nuit_de_linfo_2017.easterEggs.EasterEggsFragment">
+
+
+    <GridView
+        android:id="@+id/grid_easter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="1"></GridView>
+
+
+</FrameLayout>

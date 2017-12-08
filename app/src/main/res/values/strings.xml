@@ -1,8 +1,10 @@
 <resources>
-    <string name="app_name">Nuit_de_linfo_2017</string>
+    <string name="app_name">Nuit de l info</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <string name="glisser_droite">Faites glisser vers la droite en cas d accident</string>
 </resources>

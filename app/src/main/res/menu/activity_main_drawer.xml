@@ -30,7 +30,15 @@
                 android:id="@+id/nav_bonus"
                 android:icon="@drawable/ic_menu_bonus"
                 android:title="Bonus" />
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+            <item
+                android:id="@+id/nav_easter_eggs"
+                android:title=" "
+                />
         </menu>
     </item>
+
 
 </menu>
