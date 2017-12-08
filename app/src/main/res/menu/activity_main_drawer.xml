@@ -24,6 +24,7 @@
                 android:title="Bonus" />
             <item
                 android:id="@+id/twitter"
+                android:icon="@drawable/tw"
                 android:title="Twitter"
                 />
             <item
