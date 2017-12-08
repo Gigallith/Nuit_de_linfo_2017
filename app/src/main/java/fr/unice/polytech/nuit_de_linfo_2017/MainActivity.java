@@ -102,8 +102,8 @@ public class MainActivity extends AppCompatActivity
                     .beginTransaction()
                     .replace(R.id.flContent, new BonusFragment())
                     .commit();
-        }
-        else if (id == R.id.nav_easter_eggs){
+        } else if (id == R.id.nav_easter_eggs) {
+
             fragmentTransaction.replace(R.id.flContent, EasterEggsFragment.newInstance());
             fragmentTransaction.addToBackStack(null);
             fragmentTransaction.commit();

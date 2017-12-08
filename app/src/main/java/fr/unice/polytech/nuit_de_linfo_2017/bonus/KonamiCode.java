@@ -41,8 +41,6 @@ public class KonamiCode {
 
     public Boolean isComplete() {
         List<KSInput> list = new ArrayList<>(deque);
-        List<KSInput> list2 = new ArrayList<>(code);
-        boolean b = list.equals(list2);
         return (list.equals(code));
     }
 

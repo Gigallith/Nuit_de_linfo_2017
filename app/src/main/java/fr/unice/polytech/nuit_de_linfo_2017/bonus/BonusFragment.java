@@ -51,8 +51,8 @@ public class BonusFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.bonus_layout, container, false);
         rootView.setBackgroundColor(ContextCompat.getColor(getContext(),R.color.colorFond));
-
         bonusView = rootView.findViewById(R.id.bonus_view);
+
 
         answer = (TextView) rootView.findViewById(R.id.answerTextView) ;
         codeInput = (RelativeLayout) rootView.findViewById(R.id.code_input);

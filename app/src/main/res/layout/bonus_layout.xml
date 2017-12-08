@@ -12,12 +12,13 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+        android:text="&quot;There's nothing here!&quot;"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:visibility="invisible"
-        tools:text="&quot;There's nothing here!&quot;" />
+        android:visibility="invisible" />
+
 
     <RelativeLayout
         android:id="@+id/code_input"
