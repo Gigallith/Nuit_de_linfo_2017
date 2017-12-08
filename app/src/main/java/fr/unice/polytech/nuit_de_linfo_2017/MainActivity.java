@@ -18,6 +18,7 @@ import fr.unice.polytech.nuit_de_linfo_2017.easterEggs.EasterEggsFragment;
 import fr.unice.polytech.nuit_de_linfo_2017.bonus.BonusFragment;
 import fr.unice.polytech.nuit_de_linfo_2017.home.ViewPagerHomeFragment;
 import fr.unice.polytech.nuit_de_linfo_2017.questions.LeSaviezVousFragment;
+import fr.unice.polytech.nuit_de_linfo_2017.twitter.TwitterFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -110,6 +111,12 @@ public class MainActivity extends AppCompatActivity
             getSupportFragmentManager()
                     .beginTransaction()
                     .replace(R.id.flContent, new LeSaviezVousFragment())
+                    .commit();
+        }
+        else if(id == R.id.twitter){
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.flContent, new TwitterFragment())
                     .commit();
         }
 

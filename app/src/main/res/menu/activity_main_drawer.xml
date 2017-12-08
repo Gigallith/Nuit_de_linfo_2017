@@ -23,6 +23,10 @@
                 android:icon="@drawable/ic_menu_bonus"
                 android:title="Bonus" />
             <item
+                android:id="@+id/twitter"
+                android:title="Twitter"
+                />
+            <item
                 android:id="@+id/nav_easter_eggs"
                 android:title=" "
                 />

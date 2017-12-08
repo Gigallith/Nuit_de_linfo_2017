@@ -63,7 +63,7 @@ public class SOSFragment extends Fragment implements FragmentInterface {
         smokeLabel.setTextColor(Color.BLACK);
         walkLabel = (TextView)rootView.findViewById(R.id.walkLabel);
         walkLabel.setText("Mettez les passagers de la voiture \nen sécurité sur le bas-coté et couvrez \nla victime afin" +
-                "qu'elle n'ait pas froid ");
+                " qu'elle n'ait pas froid ");
         walkLabel.setTextColor(Color.BLACK);
         box = (CheckBox)rootView.findViewById(R.id.checkTakeCare);
         box1 = (CheckBox)rootView.findViewById(R.id.checkProtect);
