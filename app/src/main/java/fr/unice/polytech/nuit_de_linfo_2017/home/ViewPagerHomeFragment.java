@@ -28,6 +28,7 @@ public class ViewPagerHomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         ViewGroup rootView = (ViewGroup) inflater.inflate(
                 R.layout.view_pager_layout, container, false);
+
         return rootView;
 
     }

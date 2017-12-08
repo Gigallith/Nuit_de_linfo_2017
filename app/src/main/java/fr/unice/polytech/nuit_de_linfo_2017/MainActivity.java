@@ -17,6 +17,7 @@ import fr.unice.polytech.nuit_de_linfo_2017.chatbot.ChatBot;
 import fr.unice.polytech.nuit_de_linfo_2017.easterEggs.EasterEggsFragment;
 import fr.unice.polytech.nuit_de_linfo_2017.bonus.BonusFragment;
 import fr.unice.polytech.nuit_de_linfo_2017.home.ViewPagerHomeFragment;
+import fr.unice.polytech.nuit_de_linfo_2017.questions.LeSaviezVousFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -46,7 +47,9 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
-        } else {
+        }else if(getFragmentManager().getBackStackEntryCount() > 0) {
+            getFragmentManager().popBackStack();
+        }else {
             super.onBackPressed();
         }
     }
@@ -100,10 +103,14 @@ public class MainActivity extends AppCompatActivity
                     .commit();
         }
         else if (id == R.id.nav_easter_eggs){
-
             fragmentTransaction.replace(R.id.flContent, EasterEggsFragment.newInstance());
             fragmentTransaction.addToBackStack(null);
             fragmentTransaction.commit();
+        }else if(id== R.id.nav_leSaviezVous){
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.flContent, new LeSaviezVousFragment())
+                    .commit();
         }
 
 

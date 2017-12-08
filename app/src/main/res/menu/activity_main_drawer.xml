@@ -11,7 +11,7 @@
                 android:icon="?android:attr/listChoiceIndicatorMultiple"
                 android:title="Accueil" />
             <item
-                android:id="@+id/nav_camera"
+                android:id="@+id/nav_leSaviezVous"
                 android:icon="@android:drawable/star_big_off"
                 android:title="Le saviez-vous ?" />
             <item
