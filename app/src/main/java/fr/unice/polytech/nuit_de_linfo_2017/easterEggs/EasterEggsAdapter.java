@@ -28,10 +28,6 @@ public class EasterEggsAdapter extends ArrayAdapter<EasterEgg> {
         super(context, resource,  easterEggs);
     }
 
-//    @Override
-//    public int getCount() {
-//        return 2;
-//    }
 
     @NonNull
     @Override
@@ -43,8 +39,7 @@ public class EasterEggsAdapter extends ArrayAdapter<EasterEgg> {
             convertView = inflater.inflate(R.layout.easter_adapter,null);
         }
 
-        Globals g = Globals.getInstance();
-        int data = g.getData();
+
 
         EasterEgg easterEgg = getItem(position);
 
